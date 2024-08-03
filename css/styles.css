@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.contacts-section {
+  flex: 0 0 25%;
+  background-color: #f1f1f1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.user-status {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user-status img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.contact-list {
+  list-style: none;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.contact-item img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.new-chat-btn {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.main-section {
+  flex: 1;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content {
+  text-align: center;
+}
+
+.main-content img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.main-content h1 {
+  margin-bottom: 10px;
+}
+
+.main-content p {
+  color: #666;
+}
